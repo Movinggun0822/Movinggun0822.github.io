@@ -1,0 +1,38 @@
+.turntableBtn{
+    display: flex;
+    align-items: center;
+}
+
+.ttBmusic{
+    width: 500px;
+}
+
+.albumTitle{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #dbdbdb;
+}
+
+.song{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.songTitle{
+    display: block;
+    color: #dbdbdb;
+}
+
+.artist{
+    display: block;
+    color: #dbdbdb;
+    margin-right: 20px;
+}
+
+.album img{
+    width: 100px;
+    height: 100px;
+    margin: 30px 30px;
+}

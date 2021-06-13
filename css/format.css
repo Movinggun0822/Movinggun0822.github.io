@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Staatliches&display=swap');
+
+#wrap{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 1vw;
+    z-index: 1;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.title{
+    width: 2vw;
+    letter-spacing: normal;
+    font-size: 45px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    writing-mode: vertical-lr;
+    text-align: right;
+}
+
+.notification{
+    width: 32vw;
+    height: 120px;
+    background-color: #36393f;
+    margin: 20px 20px 20px 30px;
+    border-radius: var(--main_border_radius);
+    box-shadow: var(--left-shadow);
+    display: flex;
+    align-items: center;
+}
+
+.todo{
+    width: 32vw;
+    height: 58vh;
+    background-color: #36393f;
+    margin: 20px 20px 20px 30px;
+    border-radius: var(--main_border_radius);
+    box-shadow: var(--left-shadow);
+}
+
+.turntable{
+    width: 30vw;
+    height: 55vh;
+    background: #464646;
+    background: linear-gradient(135deg, #000000, #252525, #000000); 
+    margin: 20px 30px;
+    border-radius: var(--main_border_radius);
+    box-shadow: var(--left-shadow);;
+    display:flex;
+    position:relative;
+    align-items: center;
+    padding-left: 3vw;
+}
+
+.turntableBtn{
+    width: 33vw;
+    height: 150px;
+    background-color: #36393f;
+    margin: 20px 30px;
+    border-radius: var(--main_border_radius);
+    box-shadow: var(--left-shadow);
+}

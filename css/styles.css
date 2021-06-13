@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "format.css";
+@import "variables.css";
+@import "LP.css";
+@import "clock.css";
+@import "components/divider.css";
+@import "weather.css";
+@import "todo.css";
+@import "music.css";
+@import "greeting.css";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,13 @@
+:root {
+    --left-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.3);
+    --right-shadow: 10px 10px 5px 3px rgba(0, 0, 0, 0.5);
+    --box-shadow: 1px 1px 0px #1d1d1d,
+        2px 2px 0px 0px #1d1d1d,
+        3px 3px 0px 0px #1d1d1d,
+        4px 4px 0px 0px #1d1d1d, 
+        5px 5px 0px 0px #1d1d1d, 
+        6px 6px 0px 0px #1d1d1d, 
+        7px 7px 0px 0px #1d1d1d, 
+        8px 8px 0px 0px #1d1d1d;
+    --main_border_radius: 30px;
+}

@@ -1,0 +1,32 @@
+.clock{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 35px;
+    color: #dbdbdb;
+    display: flex;
+}
+
+.clock__colon{
+    margin: 12px 20px;
+    font-size: 18px;
+    color: #dbdbdb;
+    opacity: 0.3;
+    font-weight: 400;
+}
+
+.clock__block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 55px;
+    margin: 0px, 20px;
+}
+
+.clock__under{
+    font-size: 8px;
+    color: white;
+    opacity: 0.3;
+    margin-top: 10px;
+    font-weight: 200;
+    text-align: center;
+}

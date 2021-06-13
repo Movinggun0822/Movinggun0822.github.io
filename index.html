@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>todo</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="test"></div>
+    <div id="wrap">
+        <div class="left">
+            <div class="notification">
+                <div class="clock">
+                    <div class="clock__block">
+                        <span class="clock__day__letter"></span>
+                        <span class="clock__under">DAY</span>
+                    </div>
+                    <span class="clock__colon">:</span>
+                    <div class="clock__block">
+                        <span class="clock__hours__letter"></span>
+                        <span class="clock__under">HOURS</span>
+                    </div>
+                    <span class="clock__colon">:</span>
+                    <div class="clock__block">
+                        <span class="clock__minutes__letter"></span>
+                        <span class="clock__under">MINUTES</span>
+                    </div>
+                    <span class="clock__colon">:</span>
+                    <div class="clock__block">
+                        <span class="clock__seconds__letter"></span>
+                        <span class="clock__under">SECONDS</span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="weather">
+                    <div class="weather-icon">
+                        <img src="#" />
+                    </div>
+                    <div class="js-weather">
+                        <span class="js-weather_temperature"></span>
+                        <span class="js-weather_location"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="todo">
+                <form class="js-form form">
+                    <input class="forminput" type="text" placeholder="What is your name?" />
+                </form>
+                <h4 class="js-greetings greetings"></h4>
+                <form class="js-taskForm">
+                    <input class="todo__input" type="text" placeholder="Add task" />
+                </form>
+                <div class="todo__list">
+                    <div class="pending">
+                        <h3>Pending</h3>
+                        <ul class="js-pendingTaskList"></ul>
+                    </div>
+                    <div class="todoDivider"></div>
+                    <div class="finished">
+                        <h3>Finished</h3>
+                        <ul class="js-finishedTaskList"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="title">grammy award for Album of the year 2010</span>
+        <div class="right">
+            <div class="turntable">
+                <div class="LPImg">
+                    <img src="img/LP_14.png" />
+                </div>
+                <img class="stick" src="img/lpstick.png" />
+            </div>
+            <div class="turntableBtn">
+                <div class="album">
+
+                </div>
+                <div class="ttBmusic">
+                    <span class="albumTitle">Album of the year 2010 : Fearless</span>
+                    <div class="song">
+                        <span class="songTitle">idonknow</span>
+                        <span class="artist">by Taylor Swift</span>
+                    </div>                    
+                    <audio autoplay controls>
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/greeting.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.LPImg img {
+    width: 23vw;
+    height: 23vw;
+}
+
+.stick {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.rotate {
+
+    animation: rotate_image 8s linear infinite; 
+   
+    transform-origin: 50% 50%;
+   }
+   
+   @keyframes rotate_image{
+	100% {
+    	transform: rotate(360deg);
+    }
+}

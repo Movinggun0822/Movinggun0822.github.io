@@ -1,0 +1,13 @@
+.weather {
+    display: flex;
+}
+
+.js-weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    color: #dbdbdb;
+    font-weight: 400;
+    text-align: center;
+}

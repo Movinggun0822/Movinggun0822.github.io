@@ -1,0 +1,143 @@
+.todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.js-taskForm{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: #3d4147;
+}
+
+.todo__input {
+    font-family: 'Montserrat', sans-serif;
+    width: 460px;
+    height: 40%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border: 0;
+    color: #dbdbdb;
+    font-size: 20px;
+    background-color: #3d4147;
+}
+
+.todo__input::placeholder {
+    color: #929292;
+}
+
+.todo__list{
+    width: 500px;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.todoDivider{
+    width: 2px;
+    height: 300px;
+    margin: 0px 30px 0px 30px;
+    background-color: white;
+    opacity: 0.1;
+}
+
+.todo__list h3{
+    text-align: center;
+    font-size: 24px;
+    color: #dbdbdb;
+}
+
+.pending{
+    width: 200px;
+}
+
+.finished{
+    width: 200px;
+}
+
+.js-pendingTaskList{
+    margin-top: 20px;
+    color: #dbdbdb;
+}
+
+.js-pendingTaskList li {
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.js-pendingTaskList button{
+    border: 0;
+    background-color: transparent;
+}
+
+.js-pendingTaskList button{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.js-pendingTaskList button:hover{
+    background-color: #3d4147;
+}
+
+.js-pendingTaskList span{
+    flex: none;
+}
+
+.js-finishedTaskList{
+    margin-top: 20px;
+    color: #dbdbdb;
+}
+
+.js-finishedTaskList li {
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.js-finishedTaskList button{
+    border: 0;
+    background-color: transparent;
+}
+
+.js-finishedTaskList button{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.js-finishedTaskList button:hover{
+    background-color: #3d4147;
+}
+
+.js-finishedTaskList span{
+    flex: none;
+}
+
+.delBtn{
+    margin-left: auto;
+}
+
+.penBtn{
+    flex: none;
+    margin-right: 5px;
+}
+
+.finBtn{
+    flex: none;
+    margin-right: 5px;
+}
